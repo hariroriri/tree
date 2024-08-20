@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#hierarchyTree {
+    margin: 20px;
+    overflow: hidden;
+    height: 300px;
+    transition: transform 0.5s ease-in-out, height 0.5s ease-in-out;
+    transform-origin: top left;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 2px solid #ccc;
+}
+
+li {
+    margin: 10px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+li > ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+li.open > ul {
+    max-height: 500px; /* Set this to a large enough value to accommodate child elements */
+    opacity: 1;
+}
+
+li > ul li {
+    transform: translateX(-20px);
+    transition: transform 0.5s ease-in-out;
+}
+
+li.open > ul li {
+    transform: translateX(0);
+}
+
+strong {
+    font-weight: bold;
+    color: #333;
+}
