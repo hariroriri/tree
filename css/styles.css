@@ -1,0 +1,89 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* Light background for a romantic feel */
+    color: #333; /* Dark text for readability */
+}
+
+/* Map Container with Romantic Gradient */
+#map-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #f76c6c, #d32f2f); /* Enhanced dating red gradient */
+}
+
+/* Main Container */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    background-color: #ffffff; /* Clean background for clarity */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for Items */
+.item {
+    background: #f76c6c; /* Enhanced dating red */
+    border: 2px solid #ffffff; /* White border for contrast */
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover and Active Effects */
+.item:hover {
+    background-color: #ff8a80; /* Lighter red for hover */
+    border: 2px solid #c0c0c0; /* Silver border */
+    box-shadow: 0 0 15px rgba(192, 192, 192, 0.9); /* Pronounced silver shimmer */
+}
+
+.item:active {
+    background-color: #d32f2f; /* Darker red for active state */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.item.zoomed {
+    transform: scale(1.3) rotate(3deg);
+    z-index: 3;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Animation Classes */
+.fade-out {
+    opacity: 0;
+    transform: scale(0.85);
+}
+
+.fade-in {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.scale-up {
+    transform: scale(1.3);
+    background-color: #ffcccb; /* Light pink for scale-up */
+}
+
+.zoom-out {
+    transform: scale(0.7);
+    background-color: #f5f5f5; /* Light grey for zoom-out */
+}

@@ -1,0 +1,154 @@
+{
+    "roriri": {
+        "Roriri IT Park": {
+            "Nexgen IT College": [
+                {
+                    "name": "Computer Science Department",
+                    "role": "Department",
+                    "details": {
+                        "Location": "Building A",
+                        "Contact": "cs@nxgencollege.com",
+                        "Programs": [
+                            "Bachelor's in Computer Science",
+                            "Master's in Software Engineering"
+                        ]
+                    }
+                },
+                {
+                    "name": "Business Administration Department",
+                    "role": "Department",
+                    "details": {
+                        "Location": "Building B",
+                        "Contact": "business@nxgencollege.com",
+                        "Programs": [
+                            "Bachelor's in Business Administration",
+                            "Master's in Management"
+                        ]
+                    }
+                }
+            ],
+            "Nexgen IT Academy": [
+                {
+                    "name": "Web Development Course",
+                    "role": "Course",
+                    "details": {
+                        "Instructor": "Emily Brown",
+                        "Duration": "12 weeks",
+                        "Price": "$500",
+                        "Prerequisites": "Basic programming knowledge"
+                    }
+                },
+                {
+                    "name": "Data Science Course",
+                    "role": "Course",
+                    "details": {
+                        "Instructor": "Frank White",
+                        "Duration": "16 weeks",
+                        "Price": "$600",
+                        "Prerequisites": "Statistics and programming basics"
+                    }
+                }
+            ]
+        },
+        "Roshan Tiles": [
+            {
+                "name": "Ceramic Tiles",
+                "role": "Product",
+                "details": {
+                    "Types": ["Glossy", "Matte", "Textured"],
+                    "Price Range": "$20 - $50 per sq. ft.",
+                    "Applications": ["Residential", "Commercial"]
+                }
+            },
+            {
+                "name": "Porcelain Tiles",
+                "role": "Product",
+                "details": {
+                    "Types": ["Glossy", "Matte", "Polished"],
+                    "Price Range": "$30 - $60 per sq. ft.",
+                    "Applications": ["Bathrooms", "Kitchens"]
+                }
+            }
+        ],
+        "Rithis Tiles": [
+            {
+                "name": "Natural Stone",
+                "role": "Product",
+                "details": {
+                    "Types": ["Granite", "Marble", "Slate"],
+                    "Price Range": "$40 - $80 per sq. ft.",
+                    "Applications": ["Floors", "Countertops"]
+                }
+            },
+            {
+                "name": "Glass Tiles",
+                "role": "Product",
+                "details": {
+                    "Types": ["Clear", "Frosted", "Colored"],
+                    "Price Range": "$50 - $90 per sq. ft.",
+                    "Applications": ["Backsplashes", "Decorative walls"]
+                }
+            }
+        ],
+        "Nexemy": [
+            {
+                "name": "IT Consulting",
+                "role": "Service",
+                "details": {
+                    "Description": "Provide IT solutions and consulting services.",
+                    "Price Range": "$100 - $200 per hour",
+                    "Specialties": ["System Integration", "IT Strategy"]
+                }
+            },
+            {
+                "name": "Cloud Services",
+                "role": "Service",
+                "details": {
+                    "Description": "Cloud storage and management services.",
+                    "Price Range": "$200 - $400 per month",
+                    "Specialties": ["Cloud Storage", "Cloud Security"]
+                }
+            }
+        ],
+        "Roriri Foundation": [
+            {
+                "name": "Education Programs",
+                "role": "Program",
+                "details": {
+                    "Description": "Scholarships and educational programs for students.",
+                    "Beneficiaries": ["Students", "Schools"],
+                    "Funding Amount": "$1,000,000 annually"
+                }
+            },
+            {
+                "name": "Healthcare Support",
+                "role": "Program",
+                "details": {
+                    "Description": "Healthcare support and awareness programs for families.",
+                    "Beneficiaries": ["Families", "Hospitals"],
+                    "Funding Amount": "$500,000 annually"
+                }
+            }
+        ],
+        "Riya IAS Academy": {
+            "IAS Prelims": {
+                "Instructor": "Laura Adams",
+                "Schedule": "Mon-Sat 10am-2pm",
+                "Price": "$700",
+                "Details": {
+                    "Mode": "Online/Offline",
+                    "Materials Provided": ["Study Guides", "Mock Tests"]
+                }
+            },
+            "IAS Mains": {
+                "Instructor": "Michael Evans",
+                "Schedule": "Mon-Sat 3pm-7pm",
+                "Price": "$800",
+                "Details": {
+                    "Mode": "Online/Offline",
+                    "Materials Provided": ["Study Guides", "Practice Papers"]
+                }
+            }
+        }
+    }
+}
